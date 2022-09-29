@@ -49,10 +49,6 @@ p {
     max-height: 80px;
 }
 
-.hero-section {
-    padding: 100px 0;
-    background-color: #fff;
-}
 
 .pseudo-title {
     display: block;
@@ -94,6 +90,13 @@ p {
     border-color: #3DB370;
 }
 
+
+
+.hero-section {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
 .svg-holder {
     display: flex; 
     align-items: center;
@@ -109,6 +112,8 @@ p {
 .svg-holder:hover {
     border-color: rgba(61, 179, 112, 0.1);
 }
+
+
 
 .svg-holder:hover #light-gr {
     fill: #E1F4F5;
@@ -146,6 +151,13 @@ p {
     list-style: none;
 }
 
+.icon-list a {
+    background-color: #EFEEF3;
+    border-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+
 .icon-item {
     background-color: #EFEEF3;
     border-radius: 5px;
@@ -155,7 +167,7 @@ p {
 }
 
 .icon {
-    background-image: url("../media/img/icons-sprite.svg");
+    background-image: url("../media/img/icons-sprite-transparent.svg");
     background-repeat: no-repeat;
     display: inline-block;
     width: 30px;
@@ -202,3 +214,5 @@ p {
 .icon-twitter:hover {
     background-position: -160px -47px;
 }
+
+
